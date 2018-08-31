@@ -3,6 +3,6 @@ FROM gcr.io/cloud-builders/bazel
 RUN \
   # Install latest mercurial
   add-apt-repository ppa:mercurial-ppa/releases && \
-  apt-get update && \
-  apt-get install mercurial
+  apt-get -y update && \
+  apt-get -y install mercurial
 
