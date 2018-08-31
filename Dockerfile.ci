@@ -4,5 +4,5 @@ RUN \
   # Install latest mercurial
   add-apt-repository ppa:mercurial-ppa/releases && \
   apt-get -y update && \
-  apt-get -y install mercurial
+  apt-get install -y mercurial
 
