@@ -1,5 +1,6 @@
 # GCB configuration file
 # To learn more about GCB, go to https://cloud.google.com/container-builder/docs/
+#
 steps:
 - name: gcr.io/cloud-builders/bazel
   entrypoint: "bash"
